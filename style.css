@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right top, #e4ffc9,#fdffec);
+    height: 100vh;
+}
+header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 20vh;
+}
+.logo, ul, .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    flex: 1;
+}
+ul{
+flex: 2;
+}
+.icons{
+    flex: 1;
+    gap: 30px;
+}
+.fa-solid{
+    font-size: 20px;
+    color: rgb(77,77,77);
+}
+li{
+    list-style: none;
+    margin: 35px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.active{
+    color: #84b74d;
+}
+a:hover{
+    color: #84b74d;
+}
+.logo{
+    font-family: 'Lemon',cursive;
+    font-size: 40px;
+    color:rgb(233, 237, 237);
+    position: relative;
+}
+.logo::before{
+    content: "";
+    background-color: #84b74d;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+.logo::after{
+    content: "Food";
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top:50%;
+    left:70%;
+    transform: translate(-50%,-50%);
+}
+.login{
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #84b74d;
+    font-size: 18px;
+}
+.login:hover{
+    background-color: #709746;
+}
+section{
+    background-color: red;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.dish img{
+    height: 70vh;
+}
+.content{
+    background-color: aqua;
+    flex: 1;
+}
+.dish{
+    flex: 1;
+}
+h2{
+    font-size: 30px;
+    font-family: 'lemon', cursive;
+}
+span{
+    color: #84b74d;
+}
